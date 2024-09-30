@@ -1,0 +1,14 @@
+.logo {
+    width: 40px;
+}
+.navbarContainer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.burgerMenu {
+    color: white;
+    font-size: 2rem !important;
+}
