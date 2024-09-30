@@ -13,9 +13,10 @@
     margin: 0;
 }
 .heroContainer {
-    background-image: url('/public/images/vinilohero.jpg');
+    background-image: url('/public/images/hero2.jpg');
+    background-image: url('/public/images/hero.jpg');
     background-size: cover;
-    height: 450px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
