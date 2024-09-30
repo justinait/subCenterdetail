@@ -14,12 +14,15 @@
     font-weight: 700;
     line-height: 1;
     width: 70%;
+    margin: 0.5em 0;
 }
+
 .techniquesText {
     font-size: 12px;
     font-weight: 400;
     line-height: normal;
 }
+
 .techniquesBoxsContainer {
     font-family: 'Montserrat Variable', sans-serif;
     display: flex;
