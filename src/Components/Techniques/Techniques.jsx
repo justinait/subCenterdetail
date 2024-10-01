@@ -52,12 +52,12 @@ function Techniques() {
     let startX;
     let scrollLeft;
 
-    // limpieza de motor
     // limpieza de carroceria
     // renovador de plasticos exteriores
     // brillo de cristales
-    // aspirado profesional
     // limpieza de conductos de aire y calefaccion
+    //lavado de carroceria
+    //aplicacion de cera
 
     useEffect(() => {
         const container = containerRef.current;

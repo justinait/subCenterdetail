@@ -14,6 +14,7 @@ function About() {
                     para garantizar un servicio de excelencia en el mundo del detailing.
                 </p>
             </div>
+            <div className='puntoClaveCircleShadow'>            </div>
             
             <div className='puntosClaveCircle'>
                 <h4 className='puntosClaveNumber'>02.</h4>
@@ -21,6 +22,7 @@ function About() {
                     Nuestro equipo combina creatividad y habilidad técnica para crear diseños únicos que destacan en cada calle y carretera.
                 </p>
             </div>
+            <div className='puntoClaveCircleShadow'>            </div>
 
             <div className='puntosClaveCircle'>
                 <h4 className='puntosClaveNumber'>03.</h4>
@@ -28,6 +30,7 @@ function About() {
                     los protegemos de los elementos, asegurando que se mantengan en óptimas condiciones por más tiempo.
                 </p>
             </div>
+            <div className='puntoClaveCircleShadow'>            </div>
         {/* </div> */}
     </div>
   )
