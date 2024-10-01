@@ -98,7 +98,7 @@ function Techniques() {
     }, []);
 
     return (
-        <div className='techniquesContainer' id='formacion'>
+        <div className='techniquesContainer' id='servicios'>
 
             <h2>NUESTROS SERVICIOS</h2>
 

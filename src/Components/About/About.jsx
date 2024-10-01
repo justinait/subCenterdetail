@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
   return (
-    <div className='puntosClaveContainer' id='claves'>
+    <div className='puntosClaveContainer' id='porque'>
         
         <h2>¿Por Qué<br /> Center Detail?</h2>
 

@@ -4,10 +4,12 @@ import logo from '/logowhite.png'
 
 function Home() {
   return (
-    <div>
+    <div id='inicio'>
       <div className='heroContainer'>
-        <h1>Dejá tu auto en buenas manos</h1>
+        <h1>Realza el brillo de tu auto con nuestro <strong>servicio de detailing</strong></h1>
         <img src={logo} alt="" className='heroLogo' />
+        
+
       </div>
       <div className='heroFooter'>
         <p className='heroFooterStrong'>Limpieza profesional y precisión.</p>
@@ -18,3 +20,6 @@ function Home() {
 }
 
 export default Home
+{/* "Lleva tu auto a otro nivel con nuestro exclusivo detailing."
+"Realza el brillo de tu auto con nuestro servicio de detailing."
+"El lujo y el detalle que tu auto merece, en manos de profesionales." */}
