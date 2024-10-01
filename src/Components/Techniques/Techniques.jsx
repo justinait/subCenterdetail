@@ -22,7 +22,7 @@ function Techniques() {
         { 
             name: 'RESTAURACIÓN DE PINTURA', 
             image: '/images/pintura.jpg', 
-            text: 'Recuperá el brillo y corregí imperfecciones de la pintura.' 
+            text: 'Recuperación del brillo y corrección de imperfecciones de la pintura.' 
         },
         { 
             name: 'PULIDA DE LLANTAS', 

@@ -10,4 +10,12 @@
 }
 body {
   margin: 0;
+  font-family: 'Inter Variable', sans-serif;
+}
+h2 {
+  font-family: 'Montserrat Variable', sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
 }
