@@ -16,7 +16,7 @@ function Techniques() {
         },
         { 
             name: 'LAVADO', 
-            image: '/images/wash.jpg', 
+            image: '/images/washClose.jpg', 
             text: 'Lavado completo para mantener tu auto impecable.' 
         },
         { 
