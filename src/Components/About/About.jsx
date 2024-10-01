@@ -5,7 +5,7 @@ function About() {
   return (
     <div className='puntosClaveContainer' id='claves'>
         
-        <h2>Puntos Clave</h2>
+        <h2>¿Por Qué<br /> Center Detail?</h2>
 
         {/* <div> */}
             <div className='puntosClaveCircle'>
