@@ -1,0 +1,28 @@
+.budgetContainer {
+    background-color: black;
+    color: white;
+}
+.yourPartnerImage {    
+    background-image: url(/public/images/wash.jpg);
+    background-size: cover;
+    height: 60vh;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-start;
+    background-position: right;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.yourPartnerImage strong {
+    font-weight: 600;
+}
+.yourPartnerImage p {
+    margin-left: 10%;
+}
+.logoBudget {
+    width: 60px;
+    margin-left: 80%;
+    margin-top: 1em;
+}
