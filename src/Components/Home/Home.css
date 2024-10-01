@@ -36,6 +36,17 @@ h1 {
     line-height: normal;
     color: #f4f4f4;
 }
+/* h1 {
+    margin: 0;
+    font-size: 20px;
+    width: 72%;
+    font-family: 'Montserrat Variable', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    color: #f4f4f4;
+    text-transform: uppercase;
+} */
 h1 strong {
     font-weight: 700;
 }

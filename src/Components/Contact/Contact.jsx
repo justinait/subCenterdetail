@@ -8,7 +8,7 @@ function Contact() {
     <div className='contactContainer'  id='contacto'>
       <h2>Contacto</h2>
       
-      <p className='contactSubtitle'>¿Listo para dar el siguiente paso?</p>
+      <p className='contactSubtitle'>No esperes más. Transforma tu auto.</p>
       <p className='contactText'>Estamos disponibles para cualquier consulta, <br className='tabletOn'/> no dudes en comunicarte con nosotros</p>
 
       <div className='contactContainerBox'>
@@ -19,7 +19,7 @@ function Contact() {
         </div>
         <div>
           <img src={mail} alt="CORREO" className='contactIconMail'/>
-          <a href="F.centerdetail@gmail.com" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>F.centerdetail@gmail.com</a>
+          <a href="centerdetailmallorca@gmail.com" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>centerdetailmallorca@gmail.com</a>
         </div>
       </div>
     </div>

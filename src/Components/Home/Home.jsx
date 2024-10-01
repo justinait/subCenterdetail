@@ -6,7 +6,8 @@ function Home() {
   return (
     <div id='inicio'>
       <div className='heroContainer'>
-        <h1>Realza el brillo de tu auto con nuestro <strong>servicio de detailing</strong></h1>
+        <h1>Realza el brillo de tu auto con nuestro <strong>servicio de detailing</strong> en Palma de Mallorca</h1>
+        {/* <h1>Visita el mejor <br /> <strong>servicio de detailing</strong> <br /> en Palma de Mallorca</h1> */}
         <img src={logo} alt="" className='heroLogo' />
         
 
