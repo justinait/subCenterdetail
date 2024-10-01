@@ -1,0 +1,81 @@
+.contactContainer {
+    color: black;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+.contactSubtitle {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+}
+.contactText {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0.3em;
+}
+.contactIconMail {
+    width: 75px;
+}
+.contactContainerBox{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+.contactContainer p, .contactContainerP {
+    font-size: 12px;
+    margin: 0;
+}
+.contactContainer div {
+    width: 56%;
+}
+@media(min-width:600px){
+    .contactSubtitle {
+        font-size: 15px;
+    }
+    .contactText {
+        font-size: 14px;
+    }
+    .contactContainer {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 2em;
+    }
+    .contactContainer div {
+        width: 32%;
+    }
+}
+@media(min-width: 1000px){
+    .contactContainer {
+        justify-content: center;
+    }
+}
+@media(min-width:1200px){
+    .contactContainer p, .contactContainerP {
+        font-size: 15px;
+    }
+    .contactContainer {
+        margin: 4em;
+    }
+    .contactContainer div {
+        width: 24%;
+    }
+
+}
+
+@media(min-width:1800px){
+    .contactSubtitle {
+        font-size: 21px;
+    }
+    .contactText {
+        font-size: 19px;
+    }
+    .contactContainer p, .contactContainerP {
+        font-size: 17px;
+    }    
+    .contactContainer div {
+        width: 19%;
+    }
+}
