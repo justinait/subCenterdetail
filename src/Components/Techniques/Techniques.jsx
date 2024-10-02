@@ -6,47 +6,47 @@ function Techniques() {
     const services = [
         { 
             name: 'VINILO', 
-            image: '/images/vinilo.jpg', 
+            image: '/images/vinilo.webp', 
             text: 'Personalizá el color o diseño de tu vehículo con vinilo de alta calidad.' 
         },
         { 
             name: 'COATING CERÁMICO', 
-            image: '/images/coating.jpg', 
+            image: '/images/coating.webp', 
             text: 'Crea una capa dura y duradera que protege la pintura y proporciona un brillo profundo.' 
         },
         { 
             name: 'LAVADO', 
-            image: '/images/washClose.jpg', 
+            image: '/images/washClose.webp', 
             text: 'Lavado completo para mantener tu auto impecable.' 
         },
         { 
             name: 'RESTAURACIÓN DE PINTURA', 
-            image: '/images/pintura.jpg', 
+            image: '/images/pintura.webp', 
             text: 'Recuperación del brillo y corrección de imperfecciones de la pintura.' 
         },
         { 
             name: 'PULIDA DE LLANTAS', 
-            image: '/images/pulidadellantas.jpg', 
+            image: '/images/pulidadellantas.webp', 
             text: 'Pulido especializado para que tus llantas luzcan como nuevas.' 
         },
         { 
             name: 'INTERIOR DETALLADO', 
-            image: '/images/interior.jpg', 
+            image: '/images/interior.webp', 
             text: 'Limpieza detallada del interior de tu vehículo.' 
         },
         { 
             name: 'LIMPIEZA DE MOTOR', 
-            image: '/images/motor.jpg', 
+            image: '/images/motor.webp', 
             text: 'Limpieza profunda para mejorar el rendimiento del motor.' 
         },
         { 
             name: 'PROTECCIÓN DE FAROS (POLÍMEROS)', 
-            image: '/images/cristales.jpg', 
+            image: '/images/cristales.webp', 
             text: 'Devolvé la claridad y transparencia a los cristales de tu vehículo.' 
         },
         { 
             name: 'PULIDO Y CERA', 
-            image: '/images/pulirhero.jpg', 
+            image: '/images/pulirhero.webp', 
             text: 'Pulido profesional y aplicación de cera para proteger y realzar el brillo.' 
         }
     ];
