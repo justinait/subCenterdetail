@@ -18,29 +18,19 @@ function Home() {
         <h1>
           {activeHero === 0 ? (
             <>
-              Visita el mejor <br />
-              <strong>servicio de detailing</strong> <br />
-              en Palma de Mallorca
-            </>
+              Visita el mejor <br /><strong>servicio de detailing</strong> <br />  en Palma de Mallorca</>
           ) : (
-            <>
-              Realza el brillo de tu auto con nuestro 
-              <strong> servicio de detailing </strong> 
-              en Palma de Mallorca
-            </>
+            <>Realza el brillo de tu auto con nuestro <strong> servicio de detailing </strong> en Palma de Mallorca</>
           )}
         </h1>
         <img src={logo} alt="" className='heroLogo' />
       </div>
 
-      {/* <div className={`heroContainer ${activeHero === 1 ? 'secondHero' : ''}`}>
-        <h3>Realza el brillo de tu auto con nuestro <strong>servicio de detailing</strong> en Palma de Mallorca</h3>
-        <img src={logo} alt="" className='heroLogo' />
-      </div> */}
       <div className='heroFooter'>
         <p className='heroFooterStrong'>Limpieza profesional y precisión.</p>
         <p className='heroFooterP'>Tu vehículo en su mejor versión</p>
       </div>
+      
     </div>
   )
 }
