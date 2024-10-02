@@ -5,13 +5,14 @@ import logo from '/logowhite.png'
 function Home() {
   return (
     <div id='inicio'>
-      <div className='heroContainer'>
-        <h1>Realza el brillo de tu auto con nuestro <strong>servicio de detailing</strong> en Palma de Mallorca</h1>
-        {/* <h1>Visita el mejor <br /> <strong>servicio de detailing</strong> <br /> en Palma de Mallorca</h1> */}
+      <div className='heroContainer firstHero'>
+        <h1>Visita el mejor <br /> <strong>servicio de detailing</strong> <br /> en Palma de Mallorca</h1>
         <img src={logo} alt="" className='heroLogo' />
-        
-
       </div>
+      {/* <div className='heroContainer'>
+        <h3>Realza el brillo de tu auto con nuestro <strong>servicio de detailing</strong> en Palma de Mallorca</h3>
+        <img src={logo} alt="" className='heroLogo' />
+      </div> */}
       <div className='heroFooter'>
         <p className='heroFooterStrong'>Limpieza profesional y precisión.</p>
         <p className='heroFooterP'>Tu vehículo en su mejor versión</p>

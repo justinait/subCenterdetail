@@ -43,21 +43,26 @@ function Techniques() {
             name: 'LIMPIEZA DE MOTOR', 
             image: '/images/motor.jpg', 
             text: 'Limpieza profunda para mejorar el rendimiento del motor.' 
+        },
+        { 
+            name: 'BRILLO DE CRISTALES', 
+            image: '/images/.jpg', 
+            text: '' 
+        },
+        { 
+            name: 'APLICACIÓN DE CERA', 
+            image: '/images/.jpg', 
+            text: '' 
         }
     ];
     
+    // renovador de plasticos exteriores
+    // limpieza de conductos de aire y calefaccion
     
     const containerRef = useRef(null);
     let isDown = false;
     let startX;
     let scrollLeft;
-
-    // limpieza de carroceria
-    // renovador de plasticos exteriores
-    // brillo de cristales
-    // limpieza de conductos de aire y calefaccion
-    //lavado de carroceria
-    //aplicacion de cera
 
     useEffect(() => {
         const container = containerRef.current;

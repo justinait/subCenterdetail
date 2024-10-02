@@ -13,7 +13,6 @@
     margin: 0;
 }
 .heroContainer {
-    background-image: url('/public/images/hero2.jpg');
     background-image: url('/public/images/hero.jpg');
     background-size: cover;
     background-position: 35%;
@@ -23,10 +22,17 @@
     align-items: center;
     justify-content: flex-end;
 }
+.firstHero {
+    background-image: url('/public/images/hero2.jpg');
+    justify-content: space-around;
+}
+.firstHero .heroLogo {
+    margin-top: 6em;
+}
 .heroLogo {
     width: 300px;
 }
-h1 {
+h3 {
     margin: 0;
     font-size: 20px;
     width: 80%;
@@ -36,8 +42,7 @@ h1 {
     line-height: normal;
     color: #f4f4f4;
 }
-/* h1 {
-    margin: 0;
+h1 {
     font-size: 20px;
     width: 72%;
     font-family: 'Montserrat Variable', sans-serif;
@@ -46,7 +51,7 @@ h1 {
     line-height: normal;
     color: #f4f4f4;
     text-transform: uppercase;
-} */
-h1 strong {
+}
+h1 strong, h3 strong {
     font-weight: 700;
 }
