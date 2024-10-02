@@ -10,9 +10,9 @@ function Techniques() {
             text: 'Personalizá el color o diseño de tu vehículo con vinilo de alta calidad.' 
         },
         { 
-            name: 'PPF', 
-            image: '/images/ppf.jpg', 
-            text: 'Protegé la pintura con nuestro film de protección PPF.' 
+            name: 'COATING CERÁMICO', 
+            image: '/images/coating.jpg', 
+            text: 'Crea una capa dura y duradera que protege la pintura y proporciona un brillo profundo.' 
         },
         { 
             name: 'LAVADO', 
@@ -40,7 +40,7 @@ function Techniques() {
             text: 'Limpieza profunda para mejorar el rendimiento del motor.' 
         },
         { 
-            name: 'BRILLO DE CRISTALES', 
+            name: 'PROTECCIÓN DE FAROS (POLÍMEROS)', 
             image: '/images/cristales.jpg', 
             text: 'Devolvé la claridad y transparencia a los cristales de tu vehículo.' 
         },
