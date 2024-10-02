@@ -23,6 +23,8 @@
     display: flex;
     justify-content: space-between;
     margin: 2em 0;
+    flex-direction: column;
+    align-items: center;
 }
 .contactContainerBox p, .contactContainerP {
     font-size: 12px;
