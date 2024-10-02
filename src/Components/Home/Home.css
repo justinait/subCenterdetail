@@ -21,6 +21,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    transition: opacity 1s ease-in-out; /* Transición suave */
+    /* position: absolute; */
 }
 .firstHero {
     background-image: url('/public/images/hero2.jpg');
@@ -32,7 +34,8 @@
 .heroLogo {
     width: 300px;
 }
-h3 {
+
+h1 {
     margin: 0;
     font-size: 20px;
     width: 80%;
@@ -42,16 +45,11 @@ h3 {
     line-height: normal;
     color: #f4f4f4;
 }
-h1 {
-    font-size: 20px;
+.firstHero h1 {
+    margin: unset;
     width: 72%;
-    font-family: 'Montserrat Variable', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    line-height: normal;
-    color: #f4f4f4;
     text-transform: uppercase;
 }
-h1 strong, h3 strong {
+h1 strong {
     font-weight: 700;
 }

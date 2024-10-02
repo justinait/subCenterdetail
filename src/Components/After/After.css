@@ -29,6 +29,8 @@
   
 .image.before {
     clip-path: polygon(0 0, 100% 0, 0% 100%);
+    border-right: 5px solid white; 
+    z-index: 1;
 }
 
 .image.after {
