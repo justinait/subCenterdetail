@@ -18,12 +18,11 @@
     font-size: 2em !important;
 }
 .dropdown {
-    width: 140px;
     z-index: 1;
     position: absolute;
     top: 64px;
     right: 0;
-    padding: 6% 40px 4% 0;
+    padding: 6% 40px 4%;
     background: black;
     text-align: right;
     color: #f4f4f4;

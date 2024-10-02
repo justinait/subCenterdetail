@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import './Techniques.css'
 
 function Techniques() {
@@ -34,11 +34,6 @@ function Techniques() {
             image: '/images/interior.jpg', 
             text: 'Limpieza detallada del interior de tu vehículo.' 
         },
-        // { 
-        //     name: 'REVESTIMIENTO CERÁMICO', 
-        //     image: '/images/revestimiento.png', 
-        //     text: 'Protección duradera contra el sol y clima con revestimiento cerámico.' 
-        // },
         { 
             name: 'LIMPIEZA DE MOTOR', 
             image: '/images/motor.jpg', 

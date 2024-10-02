@@ -8,7 +8,7 @@ function Palma() {
         <div className='yourPartnerImage'>
         <img src={logo} alt="CENTER DETAIL" className='logoBudget' />
         
-        <p>Si estás en <br /> <strong> Palma de Mallorca  <br /></strong> no lo dudes más, visitanos.           </p>
+        <p><strong> Palma de Mallorca  <br /></strong> No lo dudes más, visitanos.</p>
       </div>
     </div>
   )

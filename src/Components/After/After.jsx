@@ -8,7 +8,7 @@ function After() {
     {before: "/images/beforeafter/before3.jpg", after: "/images/beforeafter/after3.jpg"}
   ]
   return (
-    <div className='afterContainer'>
+    <div className='afterContainer' id='work'>
       <h2>Nuestro trabajo</h2>
 
       <div className="imagesContainerMapAfter">
