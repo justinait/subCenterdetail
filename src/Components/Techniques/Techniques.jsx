@@ -46,13 +46,13 @@ function Techniques() {
         },
         { 
             name: 'BRILLO DE CRISTALES', 
-            image: '/images/.jpg', 
-            text: '' 
+            image: '/images/cristales.jpg', 
+            text: 'Devolvé la claridad y transparencia a los cristales de tu vehículo.' 
         },
         { 
-            name: 'APLICACIÓN DE CERA', 
-            image: '/images/.jpg', 
-            text: '' 
+            name: 'PULIDO Y CERA', 
+            image: '/images/pulirhero.jpg', 
+            text: 'Pulido profesional y aplicación de cera para proteger y realzar el brillo.' 
         }
     ];
     
