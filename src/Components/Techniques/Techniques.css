@@ -43,3 +43,17 @@
     object-fit: cover;
     border-radius: 20px;
 }
+
+@media(min-width:700px) {
+    .techniqueBox {
+        flex: 0 0 32%;
+        padding: 0 7px;
+    }
+    
+    .techniquesContainer h5 {
+        font-size: 21px;
+    }
+    .techniquesText {
+        font-size: 13px;
+    }
+}
