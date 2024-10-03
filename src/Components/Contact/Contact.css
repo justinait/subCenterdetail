@@ -76,10 +76,10 @@
     .contactContainer p, .contactContainerP {
         font-size: 15px;
     }
-    .contactContainer {
+    .contactContainerBox {
         margin: 4em;
     }
-    .contactContainer div {
+    .contactContainerBox div {
         width: 24%;
     }
 

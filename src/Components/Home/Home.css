@@ -86,3 +86,12 @@ h1 strong {
         font-size: 22px;
     }
 }
+@media (min-width: 1200px) {
+    .heroContainer {
+        height: 85vh;
+    }
+    h1 {
+        font-size: 32px;
+        width: 40%;
+    }
+}
