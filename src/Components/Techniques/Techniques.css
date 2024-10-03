@@ -78,3 +78,16 @@
         width: 90%;
     }
 }
+@media (min-width: 1400px) {
+    .techniqueBox img {
+        height: 26vw;
+    }
+    .techniqueBox {
+        flex: 0 0 25%;
+    }
+}
+@media (min-width: 1800px) {
+    .techniqueBox {
+        flex: 0 0 23%;
+    }
+}

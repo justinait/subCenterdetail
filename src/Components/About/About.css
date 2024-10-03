@@ -88,3 +88,8 @@
         width: 25%;
     }
 }
+@media (min-width: 1400px) {
+    .puntosClaveCircle {
+        width: 21%;
+    }
+}

@@ -36,3 +36,8 @@ h2 {
     display: none !important;
   }
 }
+@media (min-width: 1800px) {
+  h2 {
+    font-size: 42px;
+  }
+}
