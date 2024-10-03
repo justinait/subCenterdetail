@@ -58,6 +58,19 @@
     .contactContainer {
         justify-content: center;
     }
+    .contactSubtitle {
+        font-size: 22px;
+    }
+    .contactText {
+        font-size: 19px;
+    }
+    .contactContainerBox p, .contactContainerP {
+        font-size: 16px;
+        margin: 0;
+    }
+    .contactIconMail {
+        width: 95px;
+    }
 }
 @media(min-width:1200px){
     .contactContainer p, .contactContainerP {
