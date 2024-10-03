@@ -89,9 +89,12 @@ h1 strong {
 @media (min-width: 1200px) {
     .heroContainer {
         height: 85vh;
+        background-image: url('/public/images/herodesktop2.jpeg');
+        background-size: 140%;
     }
     h1 {
         font-size: 32px;
         width: 40%;
     }
+
 }
