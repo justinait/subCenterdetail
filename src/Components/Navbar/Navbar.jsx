@@ -73,7 +73,7 @@ function Navbar() {
         <img src={logo} alt="" className='logo' onClick={()=>scrollToSection('inicio')}/>
       </a>
 
-      {width < 1024 ? (
+      {width < 1200 ? (
         <>
           <MenuIcon className='burgerMenu' onClick={() => setShow(!show)}/>
           {show && navbar}

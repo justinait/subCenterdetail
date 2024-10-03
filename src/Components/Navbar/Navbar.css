@@ -22,7 +22,7 @@
     position: absolute;
     top: 64px;
     right: 0;
-    padding: 6% 40px 4%;
+    padding: 6% 5% 4%;
     background: black;
     text-align: right;
     color: #f4f4f4;
@@ -44,9 +44,6 @@
         padding: 0px 5%;
         height: 75px;
     }
-    .dropdown {
-        width: 200px;
-    }
     .dropdown p {
         font-size: 16px;
     }
@@ -56,6 +53,33 @@
 
 @media (min-width: 1000px){
     
+    .navbarContainer {
+        height: 95px;
+    }
+    .logo {
+        height: 60px;
+    }
+    .burgerMenu {
+        font-size: 3em !important;
+    }
+    .dropdown p {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1200px){
+    .dropdown {
+        width: 62%;
+    }
+    .dropdown p{
+        font-size: 14px;
+        height: 16px;
+        width: 21%;
+        text-align: center;
+    }
+    .logo {
+        height: 60px;
+    }
     .dropdown {
         display: flex;
         justify-content: space-between;
@@ -104,23 +128,6 @@
     .navbarContainer p:hover::before {
         width: 35%;
     }    
-    
-}
-
-@media (min-width: 1200px){
-    .dropdown {
-        width: 62%;
-    }
-    .dropdown p{
-        font-size: 14px;
-        height: 16px;
-        width: 21%;
-        text-align: center;
-    }
-    .logo {
-        height: 60px;
-    }
-
 }
 
 @media (min-width: 1800px){

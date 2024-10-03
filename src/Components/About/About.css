@@ -65,10 +65,13 @@
 @media (min-width: 1000px) {
     .puntosClaveCircle {
         width: 27%;
-        margin: 1%;
+        margin: 1.5%;
     }
     .puntosClaveText {
         font-size: 14.5px;
         width: 73%;
+    }
+    .puntosClaveContainer {
+        padding-bottom: 8em;
     }
 }
