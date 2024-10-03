@@ -26,3 +26,18 @@
     margin-left: 72%;
     margin-top: 1em;
 }
+
+@media(min-width:700px) {
+    
+    .yourPartnerImage{
+        background-size: 150%;
+    }
+    .logoBudget {
+        width: 110px;
+        margin-left: 81%;
+        margin-top: 2em;
+    }
+    .yourPartnerImage p {
+        margin: 0 0 2em 9%;
+    }
+}

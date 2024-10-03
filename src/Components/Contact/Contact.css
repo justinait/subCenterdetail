@@ -35,18 +35,23 @@
 }
 @media(min-width:600px){
     .contactSubtitle {
-        font-size: 15px;
+        font-size: 19px;
     }
     .contactText {
-        font-size: 14px;
+        font-size: 16px;
     }
     .contactContainer {
         display: flex;
         justify-content: space-evenly;
-        margin: 2em;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
-    .contactContainer div {
-        width: 32%;
+    .contactContainerBox div {
+        width: 90%;
+    }
+    .contactContainerBox {
+        flex-direction: row;
     }
 }
 @media(min-width: 1000px){
