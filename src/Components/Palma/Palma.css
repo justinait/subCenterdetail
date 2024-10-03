@@ -46,3 +46,9 @@
         font-size: 33px;
     }
 }
+@media (min-width: 700px) {
+    .yourPartnerImage {
+        background-size: 120%;
+        height: 70vh;
+    }
+}

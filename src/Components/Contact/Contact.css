@@ -73,29 +73,26 @@
     }
 }
 @media(min-width:1200px){
-    .contactContainer p, .contactContainerP {
-        font-size: 15px;
+    .contactContainerBox p, .contactContainerP {
+        font-size: 17px;
     }
     .contactContainerBox {
         margin: 4em;
-    }
-    .contactContainerBox div {
-        width: 24%;
     }
 
 }
 
 @media(min-width:1800px){
     .contactSubtitle {
-        font-size: 21px;
+        font-size: 23px;
     }
     .contactText {
-        font-size: 19px;
+        font-size: 21px;
     }
-    .contactContainer p, .contactContainerP {
+    .contactContainerBox p, .contactContainerP {
         font-size: 17px;
     }    
-    .contactContainer div {
+    .contactContainerBox div {
         width: 19%;
     }
 }

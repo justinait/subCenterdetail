@@ -66,3 +66,15 @@
         height: 34vw;
     }
 }
+@media (min-width: 1200px) {
+    .techniqueBox img {
+        height: 30vw;
+    }    
+    .techniqueBox {
+        flex: 0 0 27.5%;
+    }
+    .techniquesText {
+        font-size: 15px;
+        width: 90%;
+    }
+}
