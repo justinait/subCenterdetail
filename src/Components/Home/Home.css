@@ -53,3 +53,19 @@ h1 {
 h1 strong {
     font-weight: 700;
 }
+
+@media(min-width: 700px) {
+    .heroContainer {
+        height: 750px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .heroLogo {
+        width: 350px;
+    }
+    .heroFooter {
+        padding: 30px;
+        font-size: 18px;
+    }
+}
