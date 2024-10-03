@@ -27,3 +27,9 @@ h2 {
     margin: 2em;
   }
 }
+@media (min-width: 1000px) {
+  h2 {
+    font-size: 38px;
+    margin: 2em;
+  }
+}

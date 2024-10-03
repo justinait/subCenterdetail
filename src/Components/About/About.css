@@ -62,3 +62,13 @@
         width: 77%;
     }
 }
+@media (min-width: 1000px) {
+    .puntosClaveCircle {
+        width: 27%;
+        margin: 1%;
+    }
+    .puntosClaveText {
+        font-size: 14.5px;
+        width: 73%;
+    }
+}

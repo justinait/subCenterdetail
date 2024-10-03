@@ -41,3 +41,8 @@
         margin: 0 0 2em 9%;
     }
 }
+@media (min-width: 1000px) {
+    .yourPartnerImage p {
+        font-size: 33px;
+    }
+}

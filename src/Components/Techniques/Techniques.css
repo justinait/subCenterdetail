@@ -57,3 +57,12 @@
         font-size: 13px;
     }
 }
+@media (min-width: 1000px) {
+    .techniqueBox {
+        flex: 0 0 30%;
+        padding: 0 10px;
+    }
+    .techniqueBox img {
+        height: 34vw;
+    }
+}
