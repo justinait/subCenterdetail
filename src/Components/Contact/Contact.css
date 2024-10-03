@@ -96,9 +96,6 @@
         font-size: 21px;
     }
     .contactContainerBox p, .contactContainerP {
-        font-size: 17px;
+        font-size: 19px;
     }    
-    .contactContainerBox div {
-        width: 19%;
-    }
 }
