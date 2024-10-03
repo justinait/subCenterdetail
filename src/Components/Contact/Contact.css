@@ -79,6 +79,12 @@
     .contactContainerBox {
         margin: 4em;
     }
+    .contactSubtitle {
+        font-size: 20px;
+    }
+    .contactText {
+        font-size: 18px;
+    }
 
 }
 

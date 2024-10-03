@@ -71,12 +71,6 @@
     .dropdown {
         width: 62%;
     }
-    .dropdown p{
-        font-size: 14px;
-        height: 16px;
-        width: 21%;
-        text-align: center;
-    }
     .logo {
         height: 60px;
     }
@@ -95,11 +89,11 @@
 
     .dropdown p{
         font-weight: 400;
+        font-size: 14px;
         margin: 0;
-        height: 10.931px;
+        height: 16px;
         border-left: rgba(141, 141, 143, 0.50) solid 1px;
-        font-size: 12px;
-        width: 21%;
+        width: 25%;
         text-align: center;
     }
     .navbarContainer p {
