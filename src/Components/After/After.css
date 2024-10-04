@@ -11,8 +11,8 @@
   
 .imageContainerAfter {
     position: relative;
-    width: 70%;
-    height: 150px;
+    width: 80%;
+    height: 220px;
     margin: 20px;
     margin-bottom: 30px;
 }
@@ -23,36 +23,37 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    transition: clip-path 0.5s ease;
-    border-radius: 15px;
+    transition: clip-path 2s ease-in-out; /* Transición suave */
+    border-radius: 25px;
 }
   
-.image.before {
-    clip-path: polygon(0 0, 100% 0, 0% 100%);
-    border-right: 5px solid white; 
+.before {
     z-index: 1;
 }
-
-.image.after {
-    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  
+.after {
+    z-index: 2;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* Comienza oculta */
+}
+  
+/* Animación loop para transiciones continuas */
+.loopAnimation {
+    animation: loopVertical 6s infinite ease-in-out;
 }
 
-.imageContainerAfter:hover .before:hover {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    z-index: 3;
-}
-
-.imageContainerAfter:hover .after:hover {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    z-index: 4;
-}
-
-.beforeAfterText {
-    position: absolute;
-    bottom: -45px;
-    width: 100%;
-    text-align: center;
-    font-weight: 400;
-    font-size: 16px;
+/* Animación de "antes" a "después" en 3 segundos, luego regresa */
+@keyframes loopVertical {
+    0% {
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* Comienza oculta (antes) */
+    }
+    33% {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Se muestra toda la imagen (después) */
+    }
+    66% {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Mantiene la imagen completa (después) */
+    }
+    100% {
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* Vuelve a ocultar (antes) */
+    }
 }
   

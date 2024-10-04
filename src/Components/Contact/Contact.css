@@ -31,7 +31,7 @@
     margin: 0;
 }
 .contactContainerBox div {
-    width: 56%;
+    width: 86%;
 }
 @media(min-width:600px){
     .contactSubtitle {
