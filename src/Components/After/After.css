@@ -16,7 +16,12 @@
     margin: 20px;
     margin-bottom: 30px;
 }
-  
+.verticalBox {
+    height: 350px;
+}
+.verticalBox .image {
+    background-position: bottom;
+}
 .image {
     position: absolute;
     width: 100%;

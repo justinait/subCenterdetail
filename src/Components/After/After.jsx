@@ -5,7 +5,7 @@ function After() {
   const after = [
     { before: "/images/beforeafter/motor.jpeg", after: "/images/beforeafter/motorafter.jpeg" },
     { before: "/images/beforeafter/farolbeforeia.jpeg", after: "/images/beforeafter/farolia.jpeg" },
-    { before: "/images/beforeafter/before3ia.jpeg", after: "/images/beforeafter/after3ia.jpeg", className: 'higher' }
+    { before: "/images/beforeafter/before3ia.jpeg", after: "/images/beforeafter/after3ia2.jpeg", className: 'verticalBox' }
   ];
 
   const [isInView, setIsInView] = useState(false);
@@ -37,7 +37,7 @@ function After() {
 
       <div className="imagesContainerMapAfter">
         {after.map((e, i) => (
-          <div className="imageContainerAfter" key={i}>
+          <div className={`imageContainerAfter ${e.className ? e.className : ''}`} key={i}>
             <div className="image before" style={{ backgroundImage: `url(${e.before})` }}></div>
             <div className={`image after ${isInView ? 'loopAnimation' : ''}`} style={{ backgroundImage: `url(${e.after})` }}></div>
             <p className='beforeAfterText'>ANTES / DESPUÉS</p>

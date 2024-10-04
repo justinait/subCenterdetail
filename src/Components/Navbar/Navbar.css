@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 10%;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -25,7 +25,7 @@
     position: absolute;
     top: 64px;
     right: 0;
-    padding: 6% 5% 4%;
+    padding: 6% 10% 4%;
     background: #333333;
     text-align: right;
     color: #f4f4f4;
@@ -49,6 +49,9 @@
     }
     .dropdown p {
         font-size: 16px;
+    }
+    .dropdown {
+        padding: 6% 5% 4%;
     }
 
 }
