@@ -10,6 +10,9 @@
     line-height: 1;
     margin: 0.5em 0;
 }
+.techniquesContainer h2 {
+    margin-bottom: 2rem;
+}
 
 .techniquesText {
     font-size: 11px;

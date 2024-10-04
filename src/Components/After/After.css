@@ -2,6 +2,10 @@
     text-align: center;
 }
   
+.afterContainer h2 {
+    margin-bottom: 0;
+    margin-top: 2em;
+}
 .imagesContainerMapAfter {
     display: flex;
     justify-content: space-around;
@@ -34,9 +38,9 @@
   
 .beforeAfterText {
     position: absolute;
-    bottom: -45px;
+    bottom: -50px;
     width: 100%;
-    text-align: center;
+    text-align: justify;
     font-weight: 400;
     font-size: 16px;
 }
@@ -124,9 +128,6 @@
         margin-top: 60px;
     }
 
-    /* .afterContainer h2 {
-        margin-top: 2em;
-    } */
     .imageContainerAfter {
         height: 400px;
         width: 28%;
@@ -141,5 +142,10 @@
         font-size: 18px;
         bottom: -60px;
         text-align: justify;    
+    }
+}
+@media (min-width: 1200px) {
+    .verticalBox, .imageContainerAfter {
+        height: 500px;
     }
 }

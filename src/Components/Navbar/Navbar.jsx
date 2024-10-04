@@ -27,7 +27,7 @@ function Navbar() {
     { nombre: 'INICIO', id: 'inicio', className: 'tabletOff' },
     { nombre: 'SERVICIOS', id: 'servicios', className: ''},
     { nombre: 'CENTER DETAIL', id: 'porque', className: ''},
-    { nombre: 'NUESTROS TRABAJOS', id: 'work', className: ''},
+    { nombre: 'TRABAJOS', id: 'work', className: ''},
     { nombre: 'CONTACTO', id: 'contacto', className: ''}
   ];
 

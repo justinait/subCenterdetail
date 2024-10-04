@@ -71,6 +71,9 @@
     .dropdown p {
         font-size: 19px;
     }
+    .aNavbar {
+        height: 60px;
+    }
 }
 
 @media (min-width: 1200px){
@@ -146,5 +149,8 @@
     }
     .dropdown {
         width: 48%;
+    }
+    .aNavbar {
+        height: 70px;
     }
 }
