@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from '/isologo.png'
+import logo from '/logowhite.png'
 import './Navbar.css'
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -69,7 +69,7 @@ function Navbar() {
 
   return (
     <div className='navbarContainer'>
-      <a href='/'>
+      <a href='/' className='aNavbar'>
         <img src={logo} alt="" className='logo' onClick={()=>scrollToSection('inicio')}/>
       </a>
 
