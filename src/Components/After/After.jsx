@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './After.css';
 
 function After() {
-  
+
   const after = [
     { name: "Restauración y limpieza de motor", before: "/images/beforeafter/motor.jpeg", after: "/images/beforeafter/motorafter.jpeg" },
     { name: "Pulido de faro y protección polímeros", before: "/images/beforeafter/farolbeforeia.jpeg", after: "/images/beforeafter/farolia.jpeg" },
@@ -20,6 +20,7 @@ function After() {
       },
       { threshold: 0.5 } // Comienza la animación cuando el 50% de la sección está visible
     );
+    {console.log(isInView)}
 
     if (workRef.current) {
       observer.observe(workRef.current);
