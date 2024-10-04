@@ -3,9 +3,9 @@ import './After.css'
 
 function After() {
   const after = [
-    {before: "/images/beforeafter/before1.jpg", after: "/images/beforeafter/after3.jpg"},
-    {before: "/images/beforeafter/before2.jpg", after: "/images/beforeafter/after3.jpg"},
-    {before: "/images/beforeafter/before3.jpg", after: "/images/beforeafter/after3.jpg"}
+    {before: "/images/beforeafter/motor.jpeg", after: "/images/beforeafter/motorafter.jpeg"},
+    {before: "/images/beforeafter/farolbeforeia.jpeg", after: "/images/beforeafter/farolia.jpeg"},
+    {before: "/images/beforeafter/before3ia.jpeg", after: "/images/beforeafter/after3ia.jpeg", className: 'higher'}
   ]
   return (
     <div className='afterContainer' id='work'>
