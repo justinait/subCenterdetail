@@ -51,6 +51,9 @@
     z-index: 2;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* Comienza oculta */
 }
+.afterSubtitle {
+    font-size: 13.5px
+}
   
 /* Animación loop para transiciones continuas */
 .loopAnimation {
@@ -73,3 +76,67 @@
     }
 }
   
+@media(min-width: 700px) {
+    .imageContainerAfter {
+        height: 350px;
+    }
+    .verticalBox {
+        height: 550px;
+    }
+    .imageContainerAfter {
+        margin: 40px;
+    }
+    .beforeAfterText {
+        font-size: 20px;
+        bottom: -60px;
+        text-align: justify;    
+    }
+    .afterContainer h2 {
+        margin-bottom: 0;
+    }
+    .afterSubtitle {
+        font-size: 18px;
+    }
+}
+@media(min-width: 1000px) {
+    .imagesContainerMapAfter {
+        flex-direction: row;
+    }
+
+    .imageContainerAfter {
+        height: 450px;
+        width: 70%;
+    }
+    .verticalBox {
+        height: 700px;
+    }
+    .imageContainerAfter {
+        margin: 40px;
+    }
+    .beforeAfterText {
+        font-size: 20px;
+        bottom: -60px;
+        text-align: justify;    
+    }
+}
+@media(min-width: 1200px) {
+    .imagesContainerMapAfter {
+        flex-direction: row;
+    }
+
+    .imageContainerAfter {
+        height: 450px;
+        width: 70%;
+    }
+    .verticalBox {
+        height: 700px;
+    }
+    .imageContainerAfter {
+        margin: 40px;
+    }
+    .beforeAfterText {
+        font-size: 20px;
+        bottom: -60px;
+        text-align: justify;    
+    }
+}

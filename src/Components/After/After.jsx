@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './After.css';
 
 function After() {
+  
   const after = [
     { name: "Restauración y limpieza de motor", before: "/images/beforeafter/motor.jpeg", after: "/images/beforeafter/motorafter.jpeg" },
     { name: "Pulido de faro y protección polímeros", before: "/images/beforeafter/farolbeforeia.jpeg", after: "/images/beforeafter/farolia.jpeg" },
@@ -34,7 +35,7 @@ function After() {
   return (
     <div className='afterContainer' id='work' ref={workRef}>
       <h2>Nuestro trabajo</h2>
-      <p>ANTES / DESPUÉS</p>
+      <p className='afterSubtitle'>ANTES / DESPUÉS</p>
 
       <div className="imagesContainerMapAfter">
         {after.map((e, i) => (
