@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './After.css';
+import capot from '/images/beforeafter/capot.jpeg'
 
 function After() {
 
   const after = [
     { name: "Restauración y limpieza de motor", before: "/images/beforeafter/motor.jpeg", after: "/images/beforeafter/motorafter.jpeg" },
-    { name: "Pulido de faro y protección polímeros", before: "/images/beforeafter/farolbeforeia.jpeg", after: "/images/beforeafter/farolia.jpeg" },
-    { name: "Limpieza y desinfección de tapicería", before: "/images/beforeafter/before3ia.jpeg", after: "/images/beforeafter/after3ia2.jpeg", className: 'verticalBox' }
+    { name: "Limpieza y desinfección de tapicería", before: "/images/beforeafter/before3ia.jpeg", after: "/images/beforeafter/after3ia2.jpeg", className: 'verticalBox' },
+    { name: "Pulido de faro y protección polímeros", before: "/images/beforeafter/farolbeforeia.jpeg", after: "/images/beforeafter/farolia.jpeg" }
   ];
 
   const [isInView, setIsInView] = useState(false);
@@ -40,12 +41,16 @@ function After() {
 
       <div className="imagesContainerMapAfter">
         {after.map((e, i) => (
-          <div className={`imageContainerAfter ${e.className ? e.className : ''}`} key={i}>
+          <div className={`imageContainerAfter ${e.className ? e.className : ''} ${i === 2 ? 'thirdBoxAfter' : ''}`} key={i}>
             <div className="image before" style={{ backgroundImage: `url(${e.before})` }}></div>
             <div className={`image after ${isInView ? 'loopAnimation' : ''}`} style={{ backgroundImage: `url(${e.after})` }}></div>
             <p className='beforeAfterText'>{e.name}</p>
           </div>
         ))}
+        <div className='imageContainerAfter'>
+          <img src={capot} alt="" className='imageCapot' />
+          <p className='capotText'>Pulido y recuperación de color. Revestimiento cerámico y protección de la pintura.</p>
+        </div>
       </div>
     </div>
   );
