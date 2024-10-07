@@ -15,7 +15,7 @@ function Contact() {
 
         <div>
           <img src={ig} alt="INSTAGRAM" className='contactIconMail' />
-          <p>@centerdetail</p>
+          <p>@centerdetailpalma</p>
         </div>
         <div>
           <img src={mail} alt="CORREO" className='contactIconMail'/>
