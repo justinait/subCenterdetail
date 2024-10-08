@@ -19,11 +19,11 @@ function Contact() {
         </div>
         <div>
           <img src={mail} alt="CORREO" className='contactIconMail'/>
-          <a href="mailto:centerdetailmallorca@gmail.com" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>centerdetailmallorca@gmail.com</a>
+          <a href="mailto:centerdetailmallorca@gmail.com"  target="_blank" rel="noopener noreferrer" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>centerdetailmallorca@gmail.com</a>
         </div>
       </div>
 
-      <p className='justina'>Powered by <a className='contactText' target='_blank' href="https://www.imjustwebs.com/"><strong > I'mJustWebs</strong></a></p>
+      <p className='justina'>Powered by <a className='contactText' target='_blank' rel="noopener noreferrer" href="https://www.imjustwebs.com/"><strong > I'mJustWebs</strong></a></p>
     </div>
   )
 }
