@@ -1,9 +1,9 @@
 .contactContainer {
     color: black;
-    width: 70%;
+    width: 80%;
     margin: auto;
     text-align: center;
-    padding: 40px 0;
+    padding-top: 40px;
 }
 .contactSubtitle {
     font-size: 13px;
@@ -33,6 +33,23 @@
 .contactContainerBox div {
     width: 86%;
 }
+.justina {
+    text-align: right;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 60px;
+    color: #a8a8a8 ;
+    font-family: 'Montserrat Variable';
+    margin-bottom: 15px;
+}
+.justina strong {
+    font-weight: 500;
+}
+.justina a {
+    color: #a8a8a8;
+    text-decoration: none;
+    font-size: 10px;
+}
 @media(min-width:600px){
     .contactSubtitle {
         font-size: 19px;
@@ -49,6 +66,7 @@
     }
     .contactContainerBox div {
         width: 90%;
+        transition: transform 0.3s ease-in-out;
     }
     .contactContainerBox {
         flex-direction: row;
@@ -70,6 +88,9 @@
     }
     .contactIconMail {
         width: 95px;
+    }
+    .contactContainerBox div:hover {
+        transform: scale(1.2);
     }
 }
 @media(min-width:1200px){
