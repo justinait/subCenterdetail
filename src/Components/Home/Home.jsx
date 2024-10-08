@@ -4,25 +4,31 @@ import logo from '/logowhite.png'
 
 function Home() {
   const [activeHero, setActiveHero] = useState(0);
-
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
   
   useEffect(() => {
+    let interval;
+
     const updateHero = () => {
       if (window.innerWidth < 1200) {
-        const interval = setInterval(() => {
+        setIsMobile(true);
+        interval = setInterval(() => {
           setActiveHero((prevHero) => (prevHero === 0 ? 1 : 0)); // Alterna entre los dos heroContainers
-        }, 4000); // Cambia cada 6 segundos
-
-        return () => clearInterval(interval); // Limpiar el intervalo cuando se redimensiona o desmonta el componente
+        }, 4000); // Cambia cada 4 segundos
       } else {
-        setActiveHero(1); // Si la pantalla es mayor a 1200px, fija el segundo contenido
+        setIsMobile(false);
+        clearInterval(interval); // Detener alternancia en desktop
+        setActiveHero(1); // Fija el segundo contenido en pantallas grandes
       }
     };
 
     updateHero(); // Llama a la función cuando se monta el componente
     window.addEventListener('resize', updateHero); // Escucha cambios en el tamaño de la ventana
 
-    return () => window.removeEventListener('resize', updateHero); // Limpia el listener cuando se desmonta el componente
+    return () => {
+      clearInterval(interval); // Limpia el intervalo al desmontar
+      window.removeEventListener('resize', updateHero); // Limpia el listener cuando se desmonta el componente
+    };
   }, []);
 
   return (
