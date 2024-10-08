@@ -19,7 +19,7 @@ function Contact() {
         </div>
         <div>
           <img src={mail} alt="CORREO" className='contactIconMail'/>
-          <a href="centerdetailmallorca@gmail.com" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>centerdetailmallorca@gmail.com</a>
+          <a href="mailto:centerdetailmallorca@gmail.com" className='contactContainerP' style={{color: 'black', textDecoration: 'none'}}>centerdetailmallorca@gmail.com</a>
         </div>
       </div>
 
