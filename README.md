@@ -4,7 +4,7 @@
 ```markdown
 # Center Detail - Sucursal Mallorca
 
-<img align="center" src="./public/hero-center-detail-mallorca.jpeg" alt="Center Detail Mallorca">
+<img align="center" src="./public/readme.png" alt="Center Detail Mallorca">
 
 **Descripción del proyecto:** Plataforma web específica para la sucursal de Center Detail en Mallorca, adaptada a las necesidades locales de sus clientes para servicios de limpieza y mantenimiento de vehículos de lujo.
 
