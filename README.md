@@ -1,7 +1,3 @@
-
-### Center Detail - Sucursal Mallorca
-
-```markdown
 # Center Detail - Sucursal Mallorca
 
 <img align="center" src="./public/readme.png" alt="Center Detail Mallorca">
